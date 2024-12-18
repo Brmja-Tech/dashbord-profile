@@ -244,3 +244,21 @@
       .btn-pay:hover {
         background-color: #45a049;
       }
+
+      /* dash4 */
+      .table-container {
+        padding: 10px;
+        background-color: #fff;
+        
+      }
+      .table thead th {
+        background-color: #63a5f7;
+        color: white;
+        text-align: center;
+        border-radius: 5px;
+        padding: 10px;
+      }
+      .table td {
+        text-align: center;
+        vertical-align: middle;
+      }
