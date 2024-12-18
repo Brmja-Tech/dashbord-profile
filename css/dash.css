@@ -1,0 +1,246 @@
+.balance-content{
+    background-color:#006EC4;
+    border-radius:10px;
+    
+}
+.balance-content p{
+    font-size:23px;
+    font-weight:500;
+    
+}
+
+.balance-rating{
+    background-color:#C7FFA5;
+    border-radius:10px;
+
+}
+.invest-content{
+    background-color:#2C2C2C;
+    color:#fff;
+    border-radius:10px;
+    width:90%;
+    
+}
+.invest-content p{
+    font-weight:500;
+    font-size:23px;
+}
+.amount h5{
+    font-size:14px;
+    font-weight:500;
+    margin-top:4px;
+}
+.amount-content{
+    background-color:#006EC4;
+    color:#fff;
+    border-radius:10px;
+    width:80%;
+}
+
+.tesla p{
+    font-weight:500;
+    font-size:14px;
+}
+.tesla-content p{
+    font-size:14px;
+    font-weight:400;
+}
+.tesla-content h6{
+    font-size:14px;
+    font-weight:400;
+    color:#77B900;
+}
+
+.Invested-Value p{
+    font-size:14px;
+    font-weight:400;
+    color:#838383;
+}
+.Invested-Value h6{
+    font-size:16px;
+    font-weight:500;
+    color:#2C2C2C;
+}
+
+.NASDAQ-content h6{
+    font-size:14px;
+    font-weight:500;
+    color:#838383;
+}
+.Prev-close p{
+    font-size:14px;
+    font-weight:400;
+    color:#838383;
+}
+
+.Prev-close h6{
+    font-size:16px;
+    font-weight:500;
+    color:##2C2C2C;
+}
+
+.Day-rating p{
+    font-size:16px;
+    font-weight:500;
+    color:#2C2C2C;
+    margin:0;
+}
+.Day-rating h6{
+    font-size:14px;
+    font-weight:400;
+    color:#838383;
+}
+
+
+.icon-container{
+    position:absolute;
+    top:-3%;
+    left:12%;
+    z-index:657498;
+}
+
+.p-container p{
+    font-size:14px;
+    font-weight:500;
+    
+}
+.p-container h6{
+    font-size:16px;
+    font-weight:400;
+    
+}
+.p-container {
+   
+    position:absolute;
+    top:51%;
+    left:15%;
+    z-index:657498;
+    width:70%
+}
+
+
+
+/* dash2 */
+
+   
+    .investment-section {
+        border: 1px solid #d9e2e8;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        background-color:#fff;
+
+      }
+
+      .investment-section:hover{
+        border:2px solid #006EC4;
+      }
+  
+      
+      .custom-switch {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+  
+      .custom-toggle {
+        position: relative;
+        display: inline-block;
+        width: 50px;
+        height: 25px;
+      }
+  
+      .custom-toggle input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+  
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        border-radius: 34px;
+      }
+  
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: white;
+        top: 2px;
+        left: 4px;
+        transition: 0.4s;
+      }
+  
+      input:checked + .slider {
+        background-color: #7BBC5E;
+      }
+  
+      input:checked + .slider:before {
+        transform: translateX(24px);
+      }
+  
+      
+      .invest-btn {
+        background-color: #006EC4;
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 10px;
+        padding: 10px 20px;
+        
+      }
+
+      .target-content{
+        font-size:23px;
+        font-weight:500;
+        border-radius:10px;
+      }
+
+      .label-content{
+        font-size:16px;
+        font-weight:500;
+        color:#2C2C2C;
+      }
+      .label-font{
+        font-size:17px;
+        font-weight:300;
+        color:#16151C;
+      }
+
+      @media(max-width:425px){
+        .btn-invest-now{
+            font-size: 11px;
+            text-align:center;
+        }
+      }
+  
+
+      /* dash 3 payment */
+
+      .payment-header {
+        font-weight: bold;
+      }
+      .payment-amount {
+        color: #4CAF50;
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+      .form-check-label {
+        margin-left: 5px;
+      }
+      .btn-pay {
+        background-color: #4CAF50;
+        color: #fff;
+        font-weight: bold;
+      }
+      .btn-pay:hover {
+        background-color: #45a049;
+      }
