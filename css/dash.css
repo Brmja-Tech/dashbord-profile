@@ -1,3 +1,5 @@
+
+
 .balance-content{
     background-color:#006EC4;
     border-radius:10px;
@@ -268,24 +270,24 @@
     }
 
       /* dashbord5 */
-      .sidebar a {
+      .sidebar-content a {
         color: #333;
         text-decoration: none;
         padding: 10px;
         display: block;
         border-radius: 5px;
       }
-      .sidebar a:hover {
+      .sidebar-content a:hover {
         background-color: #e9ecef;
       }
 
-      .sidebar h6{
+      .sidebar-content h6{
         font-size:20px;
         font-weight:500;
         width:170px;
       }
 
-      .menu-title {
+      .menu-title-content {
         padding: 10px;
         display: flex;
         justify-content: space-between;
@@ -293,7 +295,7 @@
         cursor: pointer;
     }
     
-    .menu-title a {
+    .menu-title-content a {
         text-decoration: none;
         color: #333;
         font-size: 16px;
@@ -307,7 +309,7 @@
         transition: transform 0.3s ease;
     }
     
-    .menu-bar {
+    .menu-bar-content {
         list-style: none;
         padding: 0;
         margin: 0;
@@ -315,18 +317,18 @@
         transition: all 0.3s ease;
     }
     
-    .menu-bar li {
+    .menu-bar-content li {
         padding: 0 15px;
         border-bottom: 1px solid #eee;
     }
     
-    .menu-bar p {
+    .menu-bar-content p {
         font-size: 14px;
         font-weight: 400;
         margin: 0;
     }
     
-    .menu-bar span {
+    .menu-bar-content span {
         font-size: 11px;
         font-weight: 400;
         color: #777;
@@ -339,24 +341,24 @@
     }
 
 
-    .menu {
+    .menu-content {
       list-style: none;
       padding: 0;
       margin-left: 16px;
   }
   
-  .menu li {
+  .menu-content li {
       padding: 0 15px;
       border-bottom: 1px solid #eee;
   }
   
-  .menu p {
+  .menu-content p {
       font-size: 14px;
       font-weight: 400;
       margin: 0;
   }
   
-  .menu span {
+  .menu-content span {
       font-size: 11px;
       font-weight: 400;
       color: #777;
