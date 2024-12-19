@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sama Bus</title>
+  <title>Projects</title>
   <!--favicon-->
   <link rel="icon" href="assets/images/sama.png" type="image/png">
   <!-- loader-->
@@ -337,21 +337,21 @@
       <!--navigation-->
       <ul class="metismenu" id="sidenav">
         <li>
-          <a href="index2.html">
+          <a href="index.html">
             <div class="parent-icon"><i class="material-icons-outlined">home</i>
             </div>
             <div class="menu-title">Dashboard</div>
           </a>
         </li>
         <li>
-          <a href="user-profile.html">
+          <a href="/">
             <div class="parent-icon"><i class="material-icons-outlined">person</i>
             </div>
             <div class="menu-title">Projects the investor</div>
           </a>
         </li>
         <li>
-          <a href="table-datatable.html">
+          <a href="wallet.html">
             <div class="parent-icon"><i class="fa-solid fa-money-bill-trend-up"></i>
             </div>
             <div class="menu-title">Wallet Transfer Pay</div>
@@ -359,15 +359,22 @@
         </li>
        
         <li>
-          <a href="Startup.html">
+          <a href="reporting.html">
             <div class="parent-icon"><i class="fa-solid fa-code-pull-request"></i>
             </div>
             <div class="menu-title">Reporting & Transaction</div>
           </a>
         </li>
         <li>
-          <a href="startup-additional.html">
+          <a href="Milestones.html">
             <div class="parent-icon"><i class="fa-solid fa-hand-holding-dollar"></i>
+            </div>
+            <div class="menu-title">Milestones</div>
+          </a>
+        </li>
+        <li>
+          <a href="startup-additional.html">
+            <div class="parent-icon"><i class="fa-solid fa-gears"></i>
             </div>
             <div class="menu-title">Settings</div>
           </a>
@@ -401,7 +408,7 @@
      
       <div class="row">
         
-        <div class="col-12 col-lg-6 col-xxl-3 d-flex">
+        <div class="col-12 col-lg-6 col-md-6 col-xxl-3 d-flex">
           <div style="max-height: 200px;" class="card rounded-4">
             <div class="card-body">
               <div class="d-flex justify-content-between align-items-center gap-3 mb-2">
@@ -426,7 +433,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 col-xxl-3 d-flex">
+        <div class="col-12 col-lg-6 col-md-6 col-xxl-3 d-flex">
           <div style="max-height: 200px; background-color:#006EC4AB;" class="card rounded-4">
             <div class="card-body">
               <div class="d-flex justify-content-between align-items-center gap-3 mb-2">
@@ -451,7 +458,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 col-xxl-3 d-flex">
+        <div class="col-12 col-lg-6 col-md-6 col-xxl-3 d-flex">
           <div style="max-height: 200px; background-color:#FFE5A5;" class="card rounded-4">
             <div class="card-body">
               <div class="d-flex justify-content-between align-items-center gap-3 mb-2">
@@ -476,7 +483,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 col-xxl-3 d-flex">
+        <div class="col-12 col-lg-6 col-md-6 col-xxl-3 d-flex">
             <div style="max-height: 200px; background-color:#C7FFA5;" class="card rounded-4">
             <div class="card-body">
               <div class="d-flex justify-content-between align-items-center gap-3 mb-2">
@@ -504,50 +511,51 @@
 
       </div>
 
-      <div class="investment-section">
-        <div class="container">
-            <div class="table-container table-responsive">
-              <table class="table table-bordered  table-hover">
-                <thead>
-                  <tr>
-                    <th>Investor Name</th>
-                    <th>Investor ID</th>
-                    <th>Project Name</th>
-                    <th>Amount (USD)</th>
-                    <th>Transfer Date</th>
-                    <th>Bank Name</th>
-                    <th>IBAN</th>
-                    <th>Status</th>
-                    <th>Notes</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>John Doe</td>
-                    <td>INV12345</td>
-                    <td>Green Energy App</td>
-                    <td>$5,000</td>
-                    <td>01/12/2024</td>
-                    <td>HSBC</td>
-                    <td>GB29NWBK601613319</td>
-                    <td>Completed</td>
-                    <td>First installment</td>
-                  </tr>
-                  <tr>
-                    <td>John Doe</td>
-                    <td>INV67890</td>
-                    <td>EdTech Revolution</td>
-                    <td>$10,000</td>
-                    <td>02/12/2024</td>
-                    <td>Al Ahly Bank</td>
-                    <td>EG380019000007281</td>
-                    <td>Pending</td>
-                    <td>Payment under process</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+      <div class="row investment-section py-5">
+       
+        <div class="col-md-6 justify-content-center align-items-center">
+          <div class="my-4">
+            <label for="investment-interests" class="form-label label-font">
+              Investment Interests <span style="color: red">*</span>
+            </label>
+            <select id="investment-interests " class="form-select w-50 ">
+              <option>Select Your Industry</option>
+            </select>
           </div>
+          <div class="my-4">
+            <label for="budget-breakdown" class="form-label label-font">
+              Budget Breakdown <span style="color: red">*</span>
+            </label>
+            <input
+              type="text"
+              id="budget-breakdown"
+              class="form-control w-75"
+              placeholder="Enter your Budget Breakdown"
+            />
+          </div>
+        </div>
+  
+      
+        <div class="col-md-6 align-items-center mb-2">
+          <div class="d-flex justify-content-end custom-switch">
+            <span>OFF</span>
+            <label class="custom-toggle">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+          <div class="">
+            <label class="form-label label-content">Target amount</label>
+            <div  style="background-color: #006EC4;"  class="p-3 text-white target-content w-50">$14,032.56</div>
+          </div>
+          <div class="">
+            <label class="form-label label-content">Funds Raised</label>
+            <div style="background-color: #1A906B;" class="p-3 text-white target-content w-50">$1,045.00</div>
+          </div>
+          
+        </div>
+        <div class="pt-5">
+        <button class="invest-btn w-25 btn-invest-now  ms-auto d-block ">Invest Now</button>
 
         </div>
       </div>
